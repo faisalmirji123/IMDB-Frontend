@@ -1,8 +1,14 @@
 import React from 'react';
 import './style.css';
-
-export default function App() {
-  return <div className="App">
-    Hello
-  </div>;
+import { Switch, Route } from 'react-router';
+import Donatepage from './Donatepage';
+const App=()=> {
+  return (
+    <>
+      <Switch>
+        <Route path="/Donatepage" component={Donatepage}></Route>
+      </Switch>
+    </>
+  );
 }
+export default App;
