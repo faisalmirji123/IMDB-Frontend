@@ -51,9 +51,9 @@ function Donatepage() {
     <div>
       {data.map((user) => (
         <div style={{ marginBottom: 100 }}>
-          <Table>
+      
             <h2>{`Name:${user.name} ID:${user.id}     event_name: ${user.event_name}  Amount_donated:${user.Amount_donated}`}</h2>
-          </Table>
+         
         </div>
       ))}
     </div>
