@@ -52,7 +52,7 @@ function Donatepage() {
       {data.map((user) => (
         <div style={{ marginBottom: 100 }}>
       
-            <h2>{`Name:${user.name} ID:${user.id}     event_name: ${user.event_name}  Amount_donated:${user.Amount_donated}`}</h2>
+            <h2>{`Name:${user.} ID:${user.id}     event_name: ${user.event_name}  Amount_donated:${user.Amount_donated}`}</h2>
          
         </div>
       ))}
