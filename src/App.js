@@ -6,7 +6,7 @@ const App=()=> {
   return (
     <>
       <Switch>
-        <Route path="/Donatepage" component={Donatepage}></Route>
+        <Route exact path="/Donatepage" component={Donatepage}></Route>
       </Switch>
     </>
   );

@@ -1,19 +1,6 @@
-// import React from 'react';
 
-// const Header = () => {
-//   return <nav>
-//     <ul className = "right">
-//       <li><a href="">Menu</a></li>
-//       </ul>
-//       </nav>
-//      <div className= "menu-btn">
-//        <div className = "menu-btn_burger"></div>
-//        </div>
-
-// };
-// export default Header;
 import React from "react";
-import { Table } from "react-bootstrap";
+
 
 function Donatepage() {
   const data = [
@@ -47,17 +34,17 @@ function Donatepage() {
     },
   ];
 
-  return (
-    <div>
-      {data.map((user) => (
+  
+    
+     const hello = {data.map((user) => (
         <div style={{ marginBottom: 100 }}>
-      
+      return(
             <h2>{`Name:${user.} ID:${user.id}     event_name: ${user.event_name}  Amount_donated:${user.Amount_donated}`}</h2>
-         
+      )
         </div>
       ))}
-    </div>
-  );
+    
+  
 }
 
 export default Donatepage;
